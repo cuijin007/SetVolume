@@ -196,7 +196,7 @@ LRESULT CALLBACK HookFun(int nCode, WPARAM wParam, LPARAM lParam)
 				{
 					// 'l' 键被按下 
 					//do somthing+
-					short state=GetKeyState(VK_CONTROL);
+					short state=GetKeyState(VK_SHIFT);
 					if(state&0x8000)
 					{
 						keybd_event(175,0,0,0);
@@ -208,7 +208,7 @@ LRESULT CALLBACK HookFun(int nCode, WPARAM wParam, LPARAM lParam)
 				{
 					// 'l' 键被按下 
 					//do somthing
-					short state=GetKeyState(VK_CONTROL);
+					short state=GetKeyState(VK_SHIFT);
 					if(state&0x8000)
 					{
 						keybd_event(174,0,0,0);

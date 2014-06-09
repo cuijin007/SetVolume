@@ -96,7 +96,7 @@ FONT 9, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     PUSHBUTTON      "关闭",IDC_CLOSE,7,7,6,6
     PUSHBUTTON      "开启",IDC_OPEN,7,7,6,6
-    LTEXT           "ctrl+""-""减音量\r\nctrl+""+""增音量",IDC_STATIC,14,11,69,24
+    LTEXT           "shift+""-""减音量\r\nshift+""+""增音量",IDC_STATIC,14,11,69,24
     PUSHBUTTON      "最小化到托盘",IDC_SMALL,7,7,6,6
 END
 
